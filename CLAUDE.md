@@ -203,3 +203,9 @@ docs, or any other artifact. This means **no**:
 
 Write the message as the human author. Do not mention AI tools used to
 produce the work.
+
+One exception, Diego's own words (2026-11-09): the website's credits
+(`site/src/template.html`) carry the line "This port was co-authored by
+Claude Code, OpenAI Codex, Gemini Notebook and GitHub Copilot. No AI were
+harmed in the development of this project." Keep it as it is; it does not
+extend to commits, PRs, code, the README or anything else.
