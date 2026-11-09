@@ -181,3 +181,6 @@ and what stops the ones that do not run. It is also on the website.
 
 GNU General Public License v3.0; see [LICENSE](LICENSE). The Mac Plus ROM
 is Apple's and is not covered by it.
+
+SidecarTridge is a trademark of GOODDATA LABS SL. Macintosh and Mac are
+trademarks of Apple Inc.
