@@ -77,6 +77,12 @@ also the reference for every patch.
 - **Sound** (STE and Mega STE): the Plus's sound buffer resampled onto
   the DMA sound each tick (`sound.c`, `sound.s`).
 
+Jackintosh follows concepts and ideas from **Spectre GCR** (Gadgets by
+Small, 1989–1991), the Mac emulator for the Atari ST: skipping the Mac's
+writes through nil handles in the bus-error handler, Control as Command
+and Alternate as Option. Never its code: Spectre is proprietary, and none
+of its code or bytes is in this repository.
+
 ## Building
 
 You need Docker (the toolchain is a pinned image,
