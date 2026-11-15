@@ -86,7 +86,7 @@ of its code or bytes is in this repository.
 ## Building
 
 You need Docker (the toolchain is a pinned image,
-`logronoide/atarist-toolkit-docker-x86_64:1.4.0`), Python 3, and for the
+`logronoide/atarist-toolkit-docker-x86_64:1.5.0`), Python 3, and for the
 website Node.js 22 or later.
 
 ```bash

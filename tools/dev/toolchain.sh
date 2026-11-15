@@ -5,7 +5,7 @@
 # The glue and mac_rom both build with the Atari GCC toolchain (GCC 4.6.4,
 # binutils 2.30): Diego's atarist-toolkit-docker, pinned by tag and digest
 # (D-10). Its entrypoint changes directory, so every call passes --entrypoint.
-ATARI_IMAGE="logronoide/atarist-toolkit-docker-x86_64:1.4.0@sha256:016434131cf53f627c365e55262845fba53f30a7de87a1f122d58f8fa6aeeebe"
+ATARI_IMAGE="logronoide/atarist-toolkit-docker-x86_64:1.5.0@sha256:5b5806bfc6c84c2cf2cebf34f13c7ea472d88d8d02ccc9f0ad71572654e215ad"
 
 # The paths whose changes make a build "dirty".
 JACK_BUILD_ID_PATHS=(src Makefile version.txt)
