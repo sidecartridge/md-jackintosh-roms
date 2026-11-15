@@ -113,7 +113,7 @@ Local reference files, outside the repository (D-02):
 
 ```bash
 docker run --rm --platform linux/x86_64 --entrypoint /bin/sh -v "$PWD/build/x:/w" -w /w/mac_rom \
-  logronoide/atarist-toolkit-docker-x86_64:1.4.0@sha256:016434131cf53f627c365e55262845fba53f30a7de87a1f122d58f8fa6aeeebe \
+  logronoide/atarist-toolkit-docker-x86_64:1.5.0@sha256:5b5806bfc6c84c2cf2cebf34f13c7ea472d88d8d02ccc9f0ad71572654e215ad \
   -c 'm68k-atari-mint-as -m68000 --register-prefix-optional -Iinclude --defsym ROM_TARGET=5 -o /w/plus3.o rom_plus.s && m68k-atari-mint-objcopy -O binary /w/plus3.o /w/plus3.bin'
 ```
 
